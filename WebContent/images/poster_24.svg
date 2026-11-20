@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" viewBox="0 0 300 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="45%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0369a1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="300" height="450" fill="url(#bg)"/>
+  <rect width="300" height="450" fill="url(#glow)"/>
+  <rect x="14" y="14" width="272" height="422" rx="12" fill="none" stroke="#fef08a" stroke-opacity="0.45" stroke-width="1.5"/>
+  <!-- Biểu tượng cuộn phim & ánh đèn chiếu -->
+  <circle cx="150" cy="175" r="68" fill="none" stroke="#fef08a" stroke-width="3" stroke-opacity="0.85"/>
+  <circle cx="150" cy="175" r="52" fill="#0369a1" fill-opacity="0.55" stroke="#fef08a" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <polygon points="138,152 174,175 138,198" fill="#fef08a"/>
+  <circle cx="150" cy="116" r="6" fill="#fef08a"/>
+  <circle cx="150" cy="234" r="6" fill="#fef08a"/>
+  <circle cx="91" cy="175" r="6" fill="#fef08a"/>
+  <circle cx="209" cy="175" r="6" fill="#fef08a"/>
+  <!-- Nhãn phân loại độ tuổi -->
+  <rect x="24" y="24" width="46" height="26" rx="6" fill="#e50914"/>
+  <text x="47" y="42" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">P</text>
+  <text x="272" y="41" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#fef08a" text-anchor="end" letter-spacing="1.5">CINEMAN IMAX</text>
+  <!-- Tiêu đề phim -->
+  <rect x="20" y="295" width="260" height="122" rx="10" fill="#000000" fill-opacity="0.45"/>
+  <text x="150" y="334" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">DORAEMON: BẢN GIAO HƯỞNG</text>
+  <line x1="75" y1="348" x2="225" y2="348" stroke="#fef08a" stroke-width="2"/>
+  <text x="150" y="372" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fef08a" text-anchor="middle" letter-spacing="1">FUJIKO F. FUJIO</text>
+  <text x="150" y="398" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle" letter-spacing="2">NOW SHOWING • 2026</text>
+</svg>
